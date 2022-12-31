@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Playfair+Display:ital,wght@1,500&family=Roboto:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+    <title>dom</title>
+    <link rel="stylesheet" href="./dom1.css">
+</head>
+
+<body>
+    <h1>Drum Kit</h1>
+    <img src="file:///home/nuka/Videos/Udemy/meg/miniprojects/drumkit/images/gitar.png">
+    <div class="drums">
+        <audio id="idAudio">
+            <source src="./sounds/wood block.wav" type="audio/wav">
+        </audio>
+
+        <button class="a drum" style="background: url(./images/WoodBlock.png);">a</button>
+        <button class="s drum" style="background: url(./images/BassDrum.png);">s</button>
+        <button class="d drum" style="background: url(./images/CreshCymbal.png);">d</button>
+        <button class="f drum" style="background: url(./images/flute.png);">f</button>
+        <button class="j drum" style="background: url(./images/gitar.png);">j</button>
+        <button class="k drum" style="background: url(./images/music.png);">k</button>
+        <button class="l drum" style="background: url(./images/Timbales.png);">l</button>
+    </div>
+    <div class="container">
+        <button class="btn">To Stop Music</button>
+    </div>
+
+    <script src="./dom1.js"></script>
+</body>
+
+</html>
